@@ -4,7 +4,7 @@ public class CheckFirstUnique
 {
     static void firstNonRepeatingElement(int A[])
     {
-        int n = A.length;
+      int n = A.length;
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j <= n; j++)
