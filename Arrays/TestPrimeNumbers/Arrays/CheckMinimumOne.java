@@ -16,6 +16,7 @@ class CheckMinimumOne {
     }
     return smallest;
   }
+  
   public static void main(String[] args){
     int[] arr = {10,20,30,2,7,5,1,0};
     int resultSmallest = findMinimum(arr);
