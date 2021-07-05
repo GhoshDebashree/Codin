@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 class FindSum{
   public static int[] twoSum(int[] arr, int target) {

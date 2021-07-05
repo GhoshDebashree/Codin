@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 public class FindUnique{
   public static int singleNumber(int[] arr) {

@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 public class ProductExeptElementItself {
   public static int[] findProduct(int[] arr){

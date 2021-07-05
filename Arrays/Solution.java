@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 class Solution {
   public static int removeDuplicates(int[] nums) {

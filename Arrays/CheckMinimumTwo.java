@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 public class CheckMinimumTwo {
   public static int findMinimum(int[] arr) {

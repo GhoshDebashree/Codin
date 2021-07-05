@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 public class SecondLargestTwo {
   public static int secondLargest(int[] arr){

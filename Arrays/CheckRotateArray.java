@@ -1,5 +1,5 @@
 
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 class CheckRotateArray
 {

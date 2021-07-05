@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 class RemoveElement {
   public static int removeElement(int[] nums, int val) {

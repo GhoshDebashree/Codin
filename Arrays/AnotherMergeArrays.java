@@ -1,4 +1,4 @@
-package Arrays.TestPrimeNumbers.Arrays;
+package Arrays;
 
 class AnotherMergeArrays {
 public static int[] mergeArrays(int[] arr1, int[] arr2) { 
