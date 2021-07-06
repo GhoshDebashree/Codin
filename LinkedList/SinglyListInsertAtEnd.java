@@ -1,4 +1,4 @@
-package Arrays;
+package LinkedList;
 
 public class SinglyListInsertAtEnd <T> {
   
