@@ -54,7 +54,7 @@ public class StackParenthesisCheck<V> {
     for(int i =0; i<exp.length();i++){
       char ch = exp.charAt(i);
       if(ch == ')' || ch == '}' || ch == ']') {
-        if(stack.isEmpty()) return false;
+        //if(stack.isEmpty()) return false;
           if((ch == ')' && stack.pop() != '(') || (ch == '}' && stack.pop() != '{') || (ch == ']' && stack.pop() != '[')) return false;
       }
       else{
