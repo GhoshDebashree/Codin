@@ -57,7 +57,7 @@ public static void sort(StackSort<Integer> stack){
   else{
     while(!newstack.isEmpty() && value < newstack.top())
       stack.push(newstack.pop());
-      newstack.push(value);
+    newstack.push(value);
     
   }
 }
