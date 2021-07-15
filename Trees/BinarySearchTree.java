@@ -14,7 +14,7 @@ class Node{                                     //Create a Node class,which cons
     rightChildNode = null;
   }
 
-  public int getData(){                       //getter and setter methods.
+  public int getData(){                       //getter and setter methods !!
     return data;
   }
 
