@@ -1,5 +1,7 @@
 package Trees;
 
+import java.lang.Math.*;
+
 public class FindMinBST {
 
 
