@@ -91,6 +91,14 @@ public static int getMin(Node root){                                // To find t
    }
      return root.getData();
  }
+
+ public static int findMax(Node root){                          //To find the maximum .
+   if(root == null) return -1;
+   while(root.getrightChildNode()!= null){
+     root = root.getrightChildNode();
+   }
+   return root.getData();
+ }
   
   
 public static void main(String[] args) {
@@ -106,6 +114,7 @@ public static void main(String[] args) {
 		bsT.addAtBST(14);
 
     System.out.println(getMin(bsT.getRoot()));
+    System.out.println(findMax(bsT.getRoot()));
   }
 
 }
