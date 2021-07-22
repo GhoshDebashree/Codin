@@ -2,11 +2,11 @@ package Algorithms;
 
 public class QuickSort {
   public static int partition(int[] array, int start,int end){
-    int pivot = array[end];
+    int pivot = array[end];                                     //set pivot as the end of the list.
     int partIndex = start;
     for(int i = start; i<end; i++){
       if(array[i] < pivot){
-        int temp = array[i];                                //swap for the left of pivot.
+        int temp = array[i];                                //swap for the left of pivot(smaller than pivot)
         array[i] = array[partIndex];
         array[partIndex] = temp;
         partIndex++;
